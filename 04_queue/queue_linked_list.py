@@ -1,7 +1,7 @@
 # coding:utf-8
 # @Time : 2019/2/17 19:56 
 # @Author : Andy.Zhang
-# @Desc : queue 队列
+# @Desc : queue 队列（用单链表方式实现，或调用Python自带的deque类快速实现）
 
 
 from collections import deque
