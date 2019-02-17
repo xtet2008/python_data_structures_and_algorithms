@@ -13,6 +13,9 @@ class Array(object):
     def __setitem__(self, index, value):
         self._items[index] = value
 
+    def __len__(self):
+        return self._size
+
     def clear(self, value=None):
         for i in range(len(self._items)):
             self._items[i] = value
